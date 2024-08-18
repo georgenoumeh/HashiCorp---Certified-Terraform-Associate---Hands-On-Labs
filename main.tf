@@ -6,8 +6,8 @@ Contributors: Bryan and Gabe
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAW3MEEVQNOF3F4577"
-  secret_key = "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"
+  #access_key = "AKIAW3MEEVQNOF3F4577"
+  #secret_key = "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"
   default_tags {
     tags = {
       Environment = terraform.workspace
